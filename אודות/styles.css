@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  direction: rtl;
+    background-image: url(https://images.pexels.com/photos/35661/pasta-cheese-egg-food.jpg);
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+/* Links styles */
+a {
+    color: #337ab7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+    a:hover {
+        color: #23527c;
+    }
+
+/* Highlighted text styles */
+.highlight {
+    font-weight: bold;
+    color: #ff6347;
+}
+
+/* Quote styles */
+blockquote {
+    font-size: 20px;
+    color: #777;
+    border-left: 4px solid #ff6347;
+    padding-left: 16px;
+    margin: 16px 0;
+}
+
+/* List styles */
+ul {
+    list-style-type: disc;
+    margin-left: 24px;
+    margin-bottom: 16px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
